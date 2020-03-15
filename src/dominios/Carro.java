@@ -7,6 +7,13 @@ public class Carro {
     private String modelo;
     private String marca;
 
+    public Carro(String placa, int ano, String modelo, String marca) {
+        this.placa = placa;
+        this.ano = ano;
+        this.modelo = modelo;
+        this.marca = marca;
+    }
+
     public String getPlaca() {
         return placa;
     }

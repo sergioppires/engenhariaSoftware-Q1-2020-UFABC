@@ -3,6 +3,7 @@ import requisitos.Requisito1;
 import requisitos.Requisito2;
 import requisitos.Requisito3;
 import testes.TestarRequisito1;
+import testes.TestarRequisitos2;
 
 import java.util.List;
 
@@ -34,6 +35,11 @@ public class main {
         TestarRequisito1 testarRequisito1 = new TestarRequisito1();
         if(testarRequisito1.testarAdicionarCliente() && testarRequisito1.testarRemoverCliente()){
             System.out.println("Requisito 1 Testado com Sucesso");
+        }
+
+        TestarRequisitos2 testarRequisito2 = new TestarRequisitos2();
+        if(testarRequisito2.testarAdicionarCarro() && testarRequisito2.testarRemoverCarro()){
+            System.out.println("Requisito 2 Testado com Sucesso");
         }
 
 
