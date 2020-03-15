@@ -13,12 +13,14 @@ public class Requisito1 {
     }
 
     public void removerCliente(List<Cliente> listaCliente, Cliente cliente){
-        listaCliente.forEach(lista ->{
-            if(lista.getCpf().equals(cliente.getCpf())){
-                listaCliente.remove(cliente);
+        for (Cliente clientes: listaCliente) {
+            int index = 0;
+            if(clientes.getCpf().equals(cliente.getCpf())){
+                listaCliente.remove(index);
+                break;
             }
-        });
-
+            index++;
+        }
     }
 
 }

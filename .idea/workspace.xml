@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dc3def5-6552-4d78-bc66-511c1e4423a1" name="Default Changelist" comment="" />
+    <list default="true" id="8dc3def5-6552-4d78-bc66-511c1e4423a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/testes/TestarRequisito1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/engenhariaSoftware/controlador/controlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/engenhariaSoftware/controlador/controlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/engenhariaSoftware/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/engenhariaSoftware/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/engenhariaSoftware/requisitos/requisitos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controlador/controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlador/controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominios/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requisitos/Requisito1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/requisitos/Requisito1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requisitos/requisitos.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +26,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YXZJrEUostz0XWrVXK3Lmh1N3p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -72,7 +89,36 @@
       <workItem from="1583090834219" duration="6538000" />
       <workItem from="1584297140642" duration="576000" />
       <workItem from="1584297921554" duration="3237000" />
+      <workItem from="1584301573907" duration="245000" />
+      <workItem from="1584309577805" duration="2831000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes/TestarRequisito1.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
