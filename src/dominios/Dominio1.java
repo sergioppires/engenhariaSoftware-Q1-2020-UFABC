@@ -1,13 +1,13 @@
 package dominios;
 
-public class Cliente {
+public class Dominio1 {
 
     private String nome;
     private String cpf;
     private int idade;
     private String endereco;
 
-    public Cliente(String nome, String cpf, int idade, String endereco) {
+    public Dominio1(String nome, String cpf, int idade, String endereco) {
         this.nome = nome;
         this.cpf = cpf;
         this.idade = idade;

@@ -1,7 +1,6 @@
 package testes;
 
-import dominios.Carro;
-import requisitos.Requisito1;
+import dominios.Dominio2;
 import requisitos.Requisito2;
 
 import java.util.ArrayList;
@@ -9,31 +8,31 @@ import java.util.List;
 
 public class TestarRequisito2 {
 
-    private List<Carro> criarListaCarroVazia(){
-        List<Carro> listaCarro = new ArrayList<>();
-        return listaCarro;
+    private List<Dominio2> criarListaCarroVazia(){
+        List<Dominio2> listaDominio2 = new ArrayList<>();
+        return listaDominio2;
     };
 
-    private List<Carro> criarListaCarroPreenchida(){
-        List<Carro> listaCarro = new ArrayList<>();
-        listaCarro.add(criarCarro());
-        return listaCarro;
+    private List<Dominio2> criarListaCarroPreenchida(){
+        List<Dominio2> listaDominio2 = new ArrayList<>();
+        listaDominio2.add(criarCarro());
+        return listaDominio2;
     };
 
-    private Carro criarCarro(){
-        Carro cliente = new Carro("BMX-1022",2019,"Etios","Toyota");
+    private Dominio2 criarCarro(){
+        Dominio2 cliente = new Dominio2("BMX-1022",2019,"Etios","Toyota");
         return cliente;
     };
 
     public boolean testarAdicionarCarro(){
-        List<Carro> listaCarro = this.criarListaCarroVazia();
+        List<Dominio2> listaDominio2 = this.criarListaCarroVazia();
 
         Requisito2 requisito2 = new Requisito2();
-        requisito2.adicionarCarro(listaCarro, this.criarCarro());
+        requisito2.adicionarCarro(listaDominio2, this.criarCarro());
 
-        Carro carroTeste = listaCarro.get(0);
+        Dominio2 dominio2Teste = listaDominio2.get(0);
 
-        if(carroTeste.getPlaca().equals("BMX-1022") && carroTeste.getAno() == 2019 && carroTeste.getModelo().equals("Etios") && carroTeste.getMarca().equals("Toyota")){
+        if(dominio2Teste.getPlaca().equals("BMX-1022") && dominio2Teste.getAno() == 2019 && dominio2Teste.getModelo().equals("Etios") && dominio2Teste.getMarca().equals("Toyota")){
             return true;
         }
         return false;
@@ -41,10 +40,10 @@ public class TestarRequisito2 {
 
     public boolean testarRemoverCarro(){
         Requisito2 requisito2 = new Requisito2();
-        List<Carro> listaCarro = this.criarListaCarroPreenchida();
-        requisito2.removerCarro(listaCarro, this.criarCarro());
+        List<Dominio2> listaDominio2 = this.criarListaCarroPreenchida();
+        requisito2.removerCarro(listaDominio2, this.criarCarro());
 
-        if(listaCarro.size() <= 0){
+        if(listaDominio2.size() <= 0){
             return true;
         }
         return false;

@@ -1,11 +1,11 @@
 package dominios;
 
-public class Aluguel {
+public class Dominio3 {
 
     private String cpf;
     private String placa;
 
-    public Aluguel(String cpf, String placa) {
+    public Dominio3(String cpf, String placa) {
         this.cpf = cpf;
         this.placa = placa;
     }

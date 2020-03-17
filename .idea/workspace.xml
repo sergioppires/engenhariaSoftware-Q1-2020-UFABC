@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc3def5-6552-4d78-bc66-511c1e4423a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testes/TestarRequisito3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dominios/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominios/Aluguel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/engenhariaSoftware/controlador/controlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/engenhariaSoftware/controlador/controlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/engenhariaSoftware/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/engenhariaSoftware/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dominios/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominios/Dominio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dominios/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominios/Dominio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominios/Dominio1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requisitos/Requisito1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/requisitos/Requisito1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requisitos/Requisito2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/requisitos/Requisito2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/requisitos/Requisito3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/requisitos/Requisito3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testes/TestarRequisitos2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testes/TestarRequisito2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testes/TestarRequisito1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testes/TestarRequisito1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testes/TestarRequisito2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testes/TestarRequisito2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testes/TestarRequisito3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testes/TestarRequisito3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +94,8 @@
       <workItem from="1584297921554" duration="3237000" />
       <workItem from="1584301573907" duration="245000" />
       <workItem from="1584309577805" duration="4129000" />
-      <workItem from="1584407722760" duration="1612000" />
+      <workItem from="1584407722760" duration="2044000" />
+      <workItem from="1584488016505" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="Teste do requisito 1">
       <created>1584312533101</created>
@@ -104,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584313697991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Teste do requisito 3">
+      <created>1584410668438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584410668438</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Minor fixes">
+      <created>1584410737272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584410737272</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,7 +144,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Teste do requisito 1" />
     <MESSAGE value="Teste do requisito 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste do requisito 2" />
+    <MESSAGE value="Teste do requisito 3" />
+    <MESSAGE value="Minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -135,12 +158,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/testes/TestarRequisito2.java</url>
-          <line>44</line>
+          <line>43</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/testes/TestarRequisito2.java</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

@@ -48,10 +48,8 @@ public class main {
             System.out.println("Requisito 3 Testado com Sucesso");
         }
 
-
-
-
-
+        System.out.println("");
+        System.out.println("Programa finalizado com sucesso. Código em produção se encontra no diretório out/production/");
     }
 
 }

@@ -1,13 +1,13 @@
 package dominios;
 
-public class Carro {
+public class Dominio2 {
 
     private String placa;
     private int ano;
     private String modelo;
     private String marca;
 
-    public Carro(String placa, int ano, String modelo, String marca) {
+    public Dominio2(String placa, int ano, String modelo, String marca) {
         this.placa = placa;
         this.ano = ano;
         this.modelo = modelo;
