@@ -8,14 +8,12 @@ import java.util.List;
 
 public class Requisito3 {
 
-    private void alugarCarro(List<Aluguel> listaAluguel, Cliente cliente, Carro carro){
-        Aluguel aluguelObj = new Aluguel();
-        aluguelObj.setCpf(cliente.getCpf());
-        aluguelObj.setPlaca(carro.getPlaca());
+    public void alugarCarro(List<Aluguel> listaAluguel, Cliente cliente, Carro carro){
+        Aluguel aluguelObj = new Aluguel(cliente.getCpf(), carro.getPlaca());
         listaAluguel.add(aluguelObj);
     }
 
-    private boolean verificarAluguelCarro(List<Aluguel> listaAluguel, Carro carro){
+    public boolean verificarAluguelCarro(List<Aluguel> listaAluguel, Carro carro){
         for (Aluguel lista : listaAluguel) {
             if(lista.getPlaca().equals(carro.getPlaca())){
                 return true;
@@ -24,7 +22,7 @@ public class Requisito3 {
         return false;
     }
 
-    private boolean verificarAluguelCliente(List<Aluguel> listaAluguel, Cliente cliente){
+    public boolean verificarAluguelCliente(List<Aluguel> listaAluguel, Cliente cliente){
         for (Aluguel lista : listaAluguel) {
             if(lista.getCpf().equals(cliente.getCpf())){
                 return true;

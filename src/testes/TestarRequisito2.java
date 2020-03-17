@@ -7,7 +7,7 @@ import requisitos.Requisito2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestarRequisitos2 {
+public class TestarRequisito2 {
 
     private List<Carro> criarListaCarroVazia(){
         List<Carro> listaCarro = new ArrayList<>();

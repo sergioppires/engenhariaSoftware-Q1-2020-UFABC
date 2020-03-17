@@ -3,7 +3,8 @@ import requisitos.Requisito1;
 import requisitos.Requisito2;
 import requisitos.Requisito3;
 import testes.TestarRequisito1;
-import testes.TestarRequisitos2;
+import testes.TestarRequisito2;
+import testes.TestarRequisito3;
 
 import java.util.List;
 
@@ -37,9 +38,14 @@ public class main {
             System.out.println("Requisito 1 Testado com Sucesso");
         }
 
-        TestarRequisitos2 testarRequisito2 = new TestarRequisitos2();
+        TestarRequisito2 testarRequisito2 = new TestarRequisito2();
         if(testarRequisito2.testarAdicionarCarro() && testarRequisito2.testarRemoverCarro()){
             System.out.println("Requisito 2 Testado com Sucesso");
+        }
+
+        TestarRequisito3 testarRequisito3 = new TestarRequisito3();
+        if(testarRequisito3.testarAlugarCarro() && testarRequisito3.testarVerificarAluguelCarro() && testarRequisito3.testarVerificarAluguelCliente()){
+            System.out.println("Requisito 3 Testado com Sucesso");
         }
 
 
