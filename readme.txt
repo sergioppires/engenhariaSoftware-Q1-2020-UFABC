@@ -15,13 +15,13 @@ Entendemos processo de software como um conjunto de etapas e métodos neccessár
 Neste projeto apresentaremos um software em Java que materializa um processo de software com seus componentes mais primários. Suas denominações em ordem de execução são: Requisitos, Projeto, Construção, Teste, Implementação. A descrição de cada etapa do processo é descrita a seguir:
 
 - Requisitos:
-    Nesta etapa temos como objetivo o levantamento dos requisitos por parte dos desenvolvedores com as áreas de negócio. Nosso PSaaS tem como premissa um contexto genérico onde trabalhamos com três domínios distintos. Destes domínios, levantamos três requisitos (genéricos) com a área de negócio para projetar o software.
+    Nesta etapa temos como objetivo o levantamento dos requisitos por parte dos desenvolvedores com as áreas de negócio. Nosso PSaaS tem como premissa um contexto genérico onde trabalhamos com três domínios distintos. Destes domínios, levantamos três requisitos (genéricos) com a área de negócio para projetar o software. O levantamento dos requisitos é chamado pelo software por meio do método criarRequisitos da classe Requisitos.
 
 - Projeto:
     Nesta etapa os requisitos levantados são utilizados para projetar uma solução e validá-la com as áreas de negócio antes de iniciar o desenvolvimento. Podem ser utilizados diversos recursos de prototipação.
     
 -Construção:
-    Nesta etapa é onde o código é construido de forma a refletir a necessidade do cliente.
+    Nesta etapa é onde o código é construido de forma a refletir a necessidade do cliente. A codificação é representada em nosso projeto pelo método criarCodificacao, da classe Codificacao, o qual passamos como entrada a lista de requisitos levantada na etapa anterior. A saída deste método enriquecerá uma lista de requisitos codificados.
 
 - Teste:
     Nesta fase é onde testamos o código desenvolvido a fim de assegurar a qualidade do código e assegurar que a exigência dos requisitos levantados estão sendo atendidos.
