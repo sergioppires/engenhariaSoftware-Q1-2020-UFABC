@@ -8,27 +8,27 @@ import java.util.List;
 
 public class TestarRequisito2 {
 
-    private List<Dominio2> criarListaCarroVazia(){
+    private List<Dominio2> criarListaDominio2Vazia(){
         List<Dominio2> listaDominio2 = new ArrayList<>();
         return listaDominio2;
     };
 
-    private List<Dominio2> criarListaCarroPreenchida(){
+    private List<Dominio2> criarListaDominio2Preenchida(){
         List<Dominio2> listaDominio2 = new ArrayList<>();
-        listaDominio2.add(criarCarro());
+        listaDominio2.add(criarDominio2());
         return listaDominio2;
     };
 
-    private Dominio2 criarCarro(){
+    private Dominio2 criarDominio2(){
         Dominio2 cliente = new Dominio2("BMX-1022",2019,"Etios","Toyota");
         return cliente;
     };
 
-    public boolean testarAdicionarCarro(){
-        List<Dominio2> listaDominio2 = this.criarListaCarroVazia();
+    public boolean testarAdicionarDominio2(){
+        List<Dominio2> listaDominio2 = this.criarListaDominio2Vazia();
 
         Requisito2 requisito2 = new Requisito2();
-        requisito2.adicionarCarro(listaDominio2, this.criarCarro());
+        requisito2.adicionarDominio2(listaDominio2, this.criarDominio2());
 
         Dominio2 dominio2Teste = listaDominio2.get(0);
 
@@ -38,10 +38,10 @@ public class TestarRequisito2 {
         return false;
     }
 
-    public boolean testarRemoverCarro(){
+    public boolean testarRemoverDominio2(){
         Requisito2 requisito2 = new Requisito2();
-        List<Dominio2> listaDominio2 = this.criarListaCarroPreenchida();
-        requisito2.removerCarro(listaDominio2, this.criarCarro());
+        List<Dominio2> listaDominio2 = this.criarListaDominio2Preenchida();
+        requisito2.removerDominio2(listaDominio2, this.criarDominio2());
 
         if(listaDominio2.size() <= 0){
             return true;
