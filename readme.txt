@@ -1,3 +1,12 @@
+Universidade Federal do ABC
+Disciplina: Engenharia de Software 
+Docente: Joao Marcelo Borovina Josko
+
+Sergio Abilio Pereira Pires Junior 11009513
+Vitor Cesar Cota Bonelli 11009113
+
+==========//==========//==========//==========
+
 Processo de Software as a Software
 
 
@@ -32,7 +41,4 @@ javac main.java
 java main
 
 ==========//==========//==========//==========
-
-
-
 
