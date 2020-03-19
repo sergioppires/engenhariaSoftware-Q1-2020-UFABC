@@ -7,7 +7,7 @@ Vitor Cesar Cota Bonelli 11009113
 
 ==========//==========//==========//==========
 
-Processo de Software as a Software
+Processo de Software as a Software (PSaaS)
 
 
 Entendemos processo de software como um conjunto de etapas e métodos neccessárias para garantir o desenvolvimento, a qualidade e a manutenção de um software. 
@@ -25,20 +25,22 @@ Neste projeto apresentaremos um software em Java que materializa um processo de 
 
 - Teste:
     Nesta fase é onde testamos o código desenvolvido a fim de assegurar a qualidade do código e assegurar que a exigência dos requisitos levantados estão sendo atendidos.
+    Em nosso caso, as classes de requisitos possuem como métodos a criação e remoção de objetos pertencentes às classes genéricas de domínios. O método testar da classe Testes é chamado, e para cada classe de requisito é realizada a verificação da funcionalidade destes métodos mencionados. 
+    Exemplo: O objeto requisito1, da classe Requisito1, exige que hajam métodos no software para incluir ou remover objetos da classe Dominio1 a uma lista. A classe TestarRequisito1 possui métodos para verificar se esta regra será atendida.
 
 - Implementação:
-    Nesta fase é onde o software será exposto para utilização em produção. Simulamos esta fase com a disponibilização do código no diretório /out/production. 
+    Nesta fase é onde o software será exposto para utilização em produção. Simulamos esta fase com a disponibilização do código no diretório /out/production e com a chamada ao método producao da classe Producao.
 
 
 ==========//==========//==========//==========
 
 Onde utilizar o código:
 
-Em seu terminal, acessar o diretório /src do projeto e executar os comandos:
+Em seu terminal, acessar o diretório raiz do projeto e executar os comandos:
 
-javac main.java
+javac src/main.java -d out/production -encoding UTF-8 -sourcepath src/
 
-java main
+java -cp out/production main
 
 ==========//==========//==========//==========
 
